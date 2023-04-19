@@ -15,7 +15,7 @@ Crack images of size 224 x 224 pixels.
 
 ## Labels
 
-The bounding-box labels are structured following the format used for YOLO format. Each image in the dataset has a corresponding '.txt' file containing the objects in the image. The text files are formatted as:
+The bounding-box labels are structured following the format used for YOLO format. Each image in the dataset has a corresponding *.txt* file containing the objects in the image. The text files are formatted as:
 
 `<object-id> <x-center> <y-center> <width> <height>`
 
