@@ -1,6 +1,6 @@
 # Masonry Crack Detection Dataset
 
-The dataset contained in this repository is a collection of crack images and their annotated bounding-box annotations. Currently, the dataset only accounts for 'Crack' defects, although it could be expanded in the future. The dataset was targeted to **detection** tasks, hence the bounding-boxes.
+The dataset contained in this repository is a collection of crack images and their annotated bounding-box annotations. Currently, the dataset only accounts for `Crack` defects, although it could be expanded in the future. The dataset was targeted to **detection** tasks, hence the bounding-boxes.
 
 ## Disclaimer
 There might be some mislabelled defects as I do not have any civil engineering qualifications. If you find any mistakes, please open an *Issue* with the details. Thank you!
