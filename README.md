@@ -2,6 +2,10 @@
 
 The dataset contained in this repository is a collection of crack images and their annotated bounding-box annotations. Currently, the dataset only accounts for 'Crack' defects, although it could be expanded in the future. The dataset was targeted to **detection** tasks, hence the bounding-boxes.
 
+| Num Images | Crack Instances |
+| ---------- | --------------- |
+| 3291 | 5954 |
+
 # Images
 
 3,291 images of size 224 x 224 pixels.
@@ -10,7 +14,7 @@ The dataset contained in this repository is a collection of crack images and the
 
 The bounding-box labels are structured following the format used for YOLO format. Each image in the dataset has a corresponding '.txt' file containing the objects in the image. The text files are formatted as:
 
-<p style="text-align:center"> `<object-id> <x-center> <y-center> <width> <height>` </p>
+`<object-id> <x-center> <y-center> <width> <height>`
 
 - **object-id**: integer representing the class of the object. This should start from 0 and increase by 1 for each new object class. This dataset only contains 'Crack' images, therefore `<object-id>` is always 0. In the event of adding more defects, this will be updated accordingly.
 
