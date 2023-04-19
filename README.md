@@ -15,20 +15,34 @@ There might be some mislabelled defects as I do not have any civil engineering q
 
 Crack images of size 224 x 224 pixels.
 
-## Labels
+## Annotations
 
 The bounding-box labels are structured following the format used for YOLO format. Each image in the dataset has a corresponding *.txt* file containing the objects in the image. The text files are formatted as:
 
 `<object-id> <x-center> <y-center> <width> <height>`
 
-- **object-id**: integer representing the class of the object. This should start from 0 and increase by 1 for each new object class. This dataset only contains 'Crack' images, therefore `<object-id>` is always 0. In the event of adding more defects, this will be updated accordingly.
+- **object-id**: integer representing the class of the object. This should start from 0 and increase by 1 for each new object class. Currently, this dataset only contains 'Crack' images, therefore `<object-id>` is always 0. In the event of adding more defects, this will be updated accordingly.
 
 - **x/y-center**: coordinates of the bounding-box centre, normalised by the width and height of the image. Values should range within [0,1].
 
 - **width/height**: dimensions of the bounding-boxes, normalised by the width and height of the image. Values should range within [0,1].
 
 ## Examples
+
 ![Dataset Examples](figs/Detection_Dataset_Examples.png)
+
+## Contributing
+
+There are several tasks that one could do to improve the current dataset such as, segmentation, add more defects, error spotting... If you would like to contribute to the project, please follow the guidelines:
+
+1. Fork the repo and create your branch from 'main'.
+2. If you've added more images, make sure that their size is consistent with the rest of the dataset (224 x 224).
+3. If you've added more bounding-box annotations, ensure they follow YOLO formatting [[`YOLO`](#annotations)].
+4. For segmentation, please consider using [Roboflow](www.roboflow.com) labeling tool.
+
+### Issues
+
+Please ensure your description is clear and has sufficient instructions to be able to reproduce the issue.
 
 ## Citing this dataset
 
