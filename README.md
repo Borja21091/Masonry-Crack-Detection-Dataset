@@ -5,7 +5,7 @@ The dataset contained in this repository is a collection of crack images and the
 [[`Paper`](https://ieeexplore.ieee.org/document/9551683)] [[`BibTeX`](#citing-this-dataset)]
 
 ## Disclaimer
-There might be some mislabelled defects as I do not have any civil engineering qualifications. If you find any mistakes, please open an *Issue* with the details. Thank you!
+It is possible some defects are not optimally labelled as I do not have civil engineering qualifications. If you find any errors, please open an *Issue* with the details. Thank you!
 
 | Num Images | Crack Instances |
 | :---: | :---: |
