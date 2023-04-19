@@ -26,7 +26,7 @@ The bounding-box labels are structured following the format used for YOLO format
 - **width/height**: dimensions of the bounding-boxes, normalised by the width and height of the image. Values should range within [0,1].
 
 ## Examples
-![Dataset Examples](figs/Detection_Dataset_Examples.jpg)
+![Dataset Examples](figs/Detection_Dataset_Examples.png)
 
 ## Citing this dataset
 
