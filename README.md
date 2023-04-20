@@ -9,7 +9,7 @@ It is possible some defects are not optimally labelled as I do not have civil en
 
 | Num Images | Crack Instances |
 | :---: | :---: |
-| 3284 | 5954 |
+| 3291 | 5954 |
 
 ## Images
 
