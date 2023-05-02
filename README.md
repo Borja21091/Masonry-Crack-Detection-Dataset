@@ -38,7 +38,7 @@ There are several tasks that one could do to improve the current dataset such as
 1. Fork the repo and create your branch from 'main'.
 2. If you've added more images, make sure that their size is consistent with the rest of the dataset (224 x 224).
 3. If you've added more bounding-box annotations, ensure they follow YOLO formatting [[`YOLO`](#annotations)].
-4. For segmentation, consider using [Roboflow](www.roboflow.com) labeling tool.
+4. For segmentation, consider using [Roboflow](https://roboflow.com) labeling tool.
 
 ### Issues
 
